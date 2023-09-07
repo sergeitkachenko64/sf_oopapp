@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple TODO App</title>
+</head>
+
+<body class="body app-body-color app-body-min-width">
+
+    <header class="header app-hf-color">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand app-navbar-text fs-3" href="#">Awesome Kanban Board</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li> -->
+                    </ul>
+                    <form id="app-login-form" class="d-flex mb-lg-0">
+                        <input id="app-login" class="form-control me-2" name="login" autocomplete="username" type="text"
+                            placeholder="Login" aria-label="Login">
+                        <input id="app-password" class="form-control me-2" name="password" autocomplete="current-password" type="password"
+                            placeholder="Password" aria-label="Password">
+                        <button id="app-login-btn" class="btn btn-outline-info" type="submit">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="">
+            <h1 id="content" class="text-center text-light display-6">Please Sign In to see your tasks!</h1>
+        </div>
+    </main>
+
+    <footer class="container-fluid text-center app-hf-color fs-4 position-absolute bottom-0 app-footer-txt">
+        <div class="row">
+            <div class="col-2 text-start">Active tasks: N</div>
+            <div class="col-3 text-start">Finished tasks: M</div>
+            <div class="col text-end">Kanban board by NAME, YEAR</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

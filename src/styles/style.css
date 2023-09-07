@@ -1,0 +1,75 @@
+#app-login-btn {
+  width: 160px;
+}
+
+.html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+.app-body-color {
+  background: #0087d5;
+}
+
+.app-body-min-width {
+  min-width: 400px;
+}
+
+.app-hf-color {
+  background: #0067A3;
+}
+
+.header,
+.footer {
+  min-width: 400px;
+  height: auto;
+}
+
+.app-navbar-text {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.app-footer-txt {
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+.app-card {
+  background: #EBECF0;
+  font-weight: 400;
+  color: black;
+  border-radius: 8px;
+  height: fit-content;
+  max-height: 800px;
+  overflow-y: scroll;
+}
+
+.app-card::-webkit-scrollbar {
+  width: 12px;
+}
+
+.app-card::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #dadada;
+  border-radius: 8px;
+}
+
+.app-card::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: yellowgreen;
+}
+
+.add {
+  text-decoration: none;
+  color: #5E6C84;
+}
+
+.app-li {
+  border-radius: 10px;
+}
